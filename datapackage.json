@@ -1,13 +1,15 @@
 {
   "name": "eleicoes-europeias",
   "title": "Eleições Europeias",
+  "homepage": "http://centraldedados.pt/eleicoes-europeias",
+  "repository": "git://github.com/centraldedados/parlamento-deputados.git"
+  "version": "0.1.0",
   "description": "Resultados eleitorais das eleições para o Parlamento Europeu, com informação ao nível de distrito.",
-  "licenses": [
+  "license": "PDDL-1.0",
+  "sources": [
     {
-      "id": "odc-odbl",
-      "name": "Open Database License",
-      "version": "1.0",
-      "url": "http://opendatacommons.org/licenses/odbl/1.0/"
+      "name": "CNE",
+      "web": "http://eleicoes.cne.pt/sel_eleicoes.cfm?m=raster",
     }
   ],
   "resources": [
