@@ -13,7 +13,7 @@
   "resources": [
     {
       "name": "pe_1987",
-      "url": "http://centraldedados.pt/eleicoes-europeias/pe_1987.csv",
+      "path": "data/pe_1987.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -63,7 +63,7 @@
     },
     {
       "name": "pe_1989",
-      "url": "http://centraldedados.pt/eleicoes-europeias/pe_1989.csv",
+      "path": "data/pe_1989.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -113,7 +113,7 @@
     },
     {
       "name": "pe_1994",
-      "url": "http://centraldedados.pt/eleicoes-europeias/pe_1994.csv",
+      "path": "data/pe_1994.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -163,7 +163,7 @@
     },
     {
       "name": "pe_1999",
-      "url": "http://centraldedados.pt/eleicoes-europeias/pe_1999.csv",
+      "path": "data/pe_1999.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -213,7 +213,7 @@
     },
     {
       "name": "pe_2004",
-      "url": "http://centraldedados.pt/eleicoes-europeias/pe_2004.csv",
+      "path": "data/pe_2004.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
