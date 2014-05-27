@@ -9,7 +9,7 @@
   "sources": [
     {
       "name": "CNE",
-      "web": "http://eleicoes.cne.pt/sel_eleicoes.cfm?m=raster",
+      "web": "http://eleicoes.cne.pt/sel_eleicoes.cfm?m=raster"
     }
   ],
   "resources": [
