@@ -2,7 +2,7 @@
   "name": "eleicoes-europeias",
   "title": "Eleições Europeias",
   "homepage": "http://centraldedados.pt/eleicoes-europeias",
-  "repository": "git://github.com/centraldedados/parlamento-deputados.git",
+  "repository": "git://github.com/centraldedados/eleicoes-europeias.git",
   "version": "0.1.0",
   "description": "Resultados eleitorais das eleições para o Parlamento Europeu, com informação ao nível de distrito.",
   "license": "PDDL-1.0",
