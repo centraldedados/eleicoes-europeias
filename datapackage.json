@@ -4,7 +4,7 @@
   "homepage": "http://centraldedados.pt/eleicoes-europeias",
   "repository": "git://github.com/centraldedados/eleicoes-europeias.git",
   "version": "0.1.0",
-  "description": "Resultados eleitorais das eleições para o Parlamento Europeu, com informação ao nível de distrito.",
+  "description": "Resultados eleitorais das eleições para o Parlamento Europeu",
   "license": "PDDL-1.0",
   "sources": [
     {
@@ -14,254 +14,51 @@
   ],
   "resources": [
     {
-      "name": "pe_1987",
-      "path": "data/pe_1987.csv",
+      "name": "resultados_europeias",
+      "path": "data/resultados_europeias.csv",
       "format": "csv",
       "mediatype": "text/csv",
+      "bytes": 15121,
       "schema": {
         "fields": [
           {
-            "id": "CODIGO",
-            "description": "Código da localidade",
-            "type": "integer"
+            "name": "codigo",
+            "type": "integer",
+            "description": "Código da localidade"
           },
           {
-            "id": "DIST_CONC_FREG",
-            "description": "Distrito, concelho ou freguesia",
-            "type": "string"
+            "name": "localidade",
+            "type": "string",
+            "description": "Localidade (concelho, distrito ou freguesia)"
           },
           {
-            "id": "T_ELEI",
-            "description": "Tipo de eleição",
-            "type": "string"
+            "name": "tipo",
+            "type": "string",
+            "description": "Tipo de ato eleitoral"
           },
           {
-            "id": "D_ELEI",
-            "description": "Data da eleição",
-            "type": "date"
+            "name": "data",
+            "type": "date",
+            "description": "Data do ato eleitoral"
           },
           {
-            "id": "SIGLA",
-            "description": "Sigla do partido ou movimento",
-            "type": "string"
+            "name": "partido",
+            "type": "string",
+            "description": "Sigla do partido"
           },
           {
-            "id": "T_DADOS",
-            "description": "Tipo de dados (???)",
-            "type": "string"
+            "name": "num_votos",
+            "type": "integer",
+            "description": "Número de votos"
           },
           {
-            "id": "VOTOS",
-            "description": "Número de votos",
-            "type": "integer"
-          },
-          {
-            "id": "P_VOTOS",
-            "description": "Percentagem de votos",
-            "type": "number"
-          }
-        ]
-      }
-    },
-    {
-      "name": "pe_1989",
-      "path": "data/pe_1989.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "id": "CODIGO",
-            "description": "Código da localidade",
-            "type": "integer"
-          },
-          {
-            "id": "DIST_CONC_FREG",
-            "description": "Distrito, concelho ou freguesia",
-            "type": "string"
-          },
-          {
-            "id": "T_ELEI",
-            "description": "Tipo de eleição",
-            "type": "string"
-          },
-          {
-            "id": "D_ELEI",
-            "description": "Data da eleição",
-            "type": "date"
-          },
-          {
-            "id": "SIGLA",
-            "description": "Sigla do partido ou movimento",
-            "type": "string"
-          },
-          {
-            "id": "T_DADOS",
-            "description": "Tipo de dados (???)",
-            "type": "string"
-          },
-          {
-            "id": "VOTOS",
-            "description": "Número de votos",
-            "type": "integer"
-          },
-          {
-            "id": "P_VOTOS",
-            "description": "Percentagem de votos",
-            "type": "number"
-          }
-        ]
-      }
-    },
-    {
-      "name": "pe_1994",
-      "path": "data/pe_1994.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "id": "CODIGO",
-            "description": "Código da localidade",
-            "type": "integer"
-          },
-          {
-            "id": "DIST_CONC_FREG",
-            "description": "Distrito, concelho ou freguesia",
-            "type": "string"
-          },
-          {
-            "id": "T_ELEI",
-            "description": "Tipo de eleição",
-            "type": "string"
-          },
-          {
-            "id": "D_ELEI",
-            "description": "Data da eleição",
-            "type": "date"
-          },
-          {
-            "id": "SIGLA",
-            "description": "Sigla do partido ou movimento",
-            "type": "string"
-          },
-          {
-            "id": "T_DADOS",
-            "description": "Tipo de dados (???)",
-            "type": "string"
-          },
-          {
-            "id": "VOTOS",
-            "description": "Número de votos",
-            "type": "integer"
-          },
-          {
-            "id": "P_VOTOS",
-            "description": "Percentagem de votos",
-            "type": "number"
-          }
-        ]
-      }
-    },
-    {
-      "name": "pe_1999",
-      "path": "data/pe_1999.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "id": "CODIGO",
-            "description": "Código da localidade",
-            "type": "integer"
-          },
-          {
-            "id": "DIST_CONC_FREG",
-            "description": "Distrito, concelho ou freguesia",
-            "type": "string"
-          },
-          {
-            "id": "T_ELEI",
-            "description": "Tipo de eleição",
-            "type": "string"
-          },
-          {
-            "id": "D_ELEI",
-            "description": "Data da eleição",
-            "type": "date"
-          },
-          {
-            "id": "SIGLA",
-            "description": "Sigla do partido ou movimento",
-            "type": "string"
-          },
-          {
-            "id": "T_DADOS",
-            "description": "Tipo de dados (???)",
-            "type": "string"
-          },
-          {
-            "id": "VOTOS",
-            "description": "Número de votos",
-            "type": "integer"
-          },
-          {
-            "id": "P_VOTOS",
-            "description": "Percentagem de votos",
-            "type": "number"
-          }
-        ]
-      }
-    },
-    {
-      "name": "pe_2004",
-      "path": "data/pe_2004.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "id": "CODIGO",
-            "description": "Código da localidade",
-            "type": "integer"
-          },
-          {
-            "id": "DIST_CONC_FREG",
-            "description": "Distrito, concelho ou freguesia",
-            "type": "string"
-          },
-          {
-            "id": "T_ELEI",
-            "description": "Tipo de eleição",
-            "type": "string"
-          },
-          {
-            "id": "D_ELEI",
-            "description": "Data da eleição",
-            "type": "date"
-          },
-          {
-            "id": "SIGLA",
-            "description": "Sigla do partido ou movimento",
-            "type": "string"
-          },
-          {
-            "id": "T_DADOS",
-            "description": "Tipo de dados (???)",
-            "type": "string"
-          },
-          {
-            "id": "VOTOS",
-            "description": "Número de votos",
-            "type": "integer"
-          },
-          {
-            "id": "P_VOTOS",
-            "description": "Percentagem de votos",
-            "type": "number"
+            "name": "perc_votos",
+            "type": "number",
+            "description": "Percentagem de votos"
           }
         ]
       }
     }
+
   ]
 }
