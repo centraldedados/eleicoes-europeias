@@ -14,7 +14,8 @@
   ],
   "resources": [
     {
-      "name": "resultados_europeias",
+      "name": "resultados-europeias",
+      "title": "Resultados",
       "path": "data/resultados_europeias.csv",
       "format": "csv",
       "mediatype": "text/csv",
