@@ -1,6 +1,6 @@
 {
   "name": "eleicoes-europeias",
-  "title": "Eleições Europeias",
+  "title": "Eleições europeias",
   "homepage": "http://centraldedados.pt/eleicoes-europeias",
   "repository": "git://github.com/centraldedados/eleicoes-europeias.git",
   "version": "0.1.0",
