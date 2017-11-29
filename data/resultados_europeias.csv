@@ -1,4 +1,4 @@
-CODIGO,DIST_CONC_FREG,tipo,data,partido,VOTOS,P_VOTOS
+codigo,localidade,tipo,data,partido,num_votos,perc_votos
 230000,Portugal,pe,1987-07-19,CDS,868718,15.4
 230000,Portugal,pe,1987-07-19,CDU,648700,11.5
 230000,Portugal,pe,1987-07-19,MDP/CDE,27678,0.49
